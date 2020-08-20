@@ -12,16 +12,16 @@ pip install PyPDF2
 ## Dependency Explained
 ---
 
-For extracting text from a PDF file we will be using the PdfFileReader class which
-is used to initialize PdfFileReader object, taking a stream parameter, in which we
+For extracting text from a PDF file we will be using the *PdfFileReader class* which
+is used to initialize *PdfFileReader object*, taking a stream parameter, in which we
 will provide the file stream for the PDF file.
 
 
-Once we have the PdfFileReader object ready, we can use its methods
-like getDocumentInfo() to get the file information, or getNumPages() to get
+Once we have the *PdfFileReader object* ready, we can use its methods
+like *getDocumentInfo()* to get the file information, or *getNumPages()* to get
 the total number of pages in the PDF file.
-Then we have the getPage() method to get the page from the PDF file using the page
-index which starts from 0, and finally the extractText() method which is used
+Then we have the *getPage()* method to get the page from the PDF file using the page
+index which starts from 0, and finally the *extractText()* method which is used
 to extract the text from the PDF file page.
 
 ---
@@ -39,15 +39,15 @@ creator, author, date of creation, etc.
 
 ## Running the Code Snippet Locally
 To run the project locally :
-* Clone the repo 
+* Clone the git repo.
 * Then from the terminal/ command prompt navigate to the pdf2text directory of the cloned repo.
-* Run the pdf2text.py file using the following command:
+* Run the *pdf2text.py* file using the following command:
 ```
 python pdf2text.py
 ```
 ## Use Cases
 * To convert scanned files in PDF format to text which can be stored in database for data collection.
-* scanning physical document like candidate resumes, and then reading text from it for analysis
+* Scanning physical document like candidate resumes, and then reading text from it for analysis
 
 ## License
 
