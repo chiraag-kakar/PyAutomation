@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 # importing PyPDF2 module for extracting text from PDF files.
 from PyPDF2 import PdfFileReader
 
@@ -33,4 +27,3 @@ for i in range(0, numOfPages):
     
 # close the PDF file object
 pdfFile.close()
-
